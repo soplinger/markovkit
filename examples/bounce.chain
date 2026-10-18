@@ -1,0 +1,4 @@
+# Two states that swap every step: irreducible but periodic.
+start A 1
+A -> B 1
+B -> A 1

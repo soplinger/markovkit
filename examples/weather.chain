@@ -1,0 +1,10 @@
+# Weather as a three-state chain. Decimals and fractions can be mixed.
+start Sunny 1
+
+Sunny -> Sunny 0.8
+Sunny -> Cloudy 1/5
+Cloudy -> Sunny 1/4
+Cloudy -> Cloudy 1/2
+Cloudy -> Rainy 1/4
+Rainy -> Cloudy 1/3
+Rainy -> Rainy 2/3

@@ -1,0 +1,8 @@
+# A customer waits at a service desk until served or lost.
+start Waiting 1
+
+Waiting -> Waiting 1/2
+Waiting -> Served 3/10
+Waiting -> Lost 1/5
+Served -> Served 1
+Lost -> Lost 1
